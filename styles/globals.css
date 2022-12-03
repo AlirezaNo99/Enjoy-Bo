@@ -1,0 +1,794 @@
+@font-face {
+  font-family: "Dirooz-FD";
+  src: url("/fonts/Dirooz-FD.ttf");
+  format: ("ttf");
+}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Dirooz-FD" !important;
+  line-height: 1.6;
+  font-size: 18px;
+  overflow-y: unset;
+  direction: rtl !important
+}
+
+h4 {
+  font-family: "Dirooz-FD";
+}
+
+.css-1n614y1-MuiTypography-root {
+  font-family: "Dirooz-FD" !important;
+
+
+}
+
+.back-color {
+  background-color: #bde0fe;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ----------------------------------------------- */
+/* .row {
+    margin: 0 !important;
+  } */
+
+
+.desk-nav {
+  height: 50px;
+  background-color: #023e7d;
+  color: white;
+  font-family: "Dirooz-FD";
+  width: 100% !important
+}
+
+.mobile-nav {
+  height: 50px;
+  background-color: #023e7d;
+  color: white;
+  font-family: "Dirooz-FD";
+}
+
+
+.logo-text {
+  font-size: 30px !important;
+}
+
+.word-taker {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  stroke: none;
+  outline: none !important;
+  line-height: 2.8em;
+}
+
+.word-taker:focus,
+.word-taker:active,
+.word-taker:hover {
+  border: none !important;
+  box-shadow: none !important;
+  stroke: none;
+}
+
+.word-taker-div {
+  border-radius: 30px !important;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  border: none;
+  margin: 20px auto;
+  background-color: #ffffff;
+
+}
+
+.header1 {
+  background-color: #023e7d;
+}
+
+.branding {
+  font-family: "Dirooz-FD";
+  color: white;
+}
+
+.cal-butt {
+  color: white;
+  height: 50px;
+
+  border: none;
+  border-radius: 0px 60px 60px 0px;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+
+}
+
+.cal-icon {
+  width: 40px;
+  height: auto;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.ms-auto {
+  margin-right: auto !important;
+  margin-left: auto !important
+}
+
+.ma-auto {
+  margin: auto;
+}
+
+.mt-10 {
+  margin-top: 10px !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+.mt-40 {
+  margin-top: 40px !important;
+}
+
+.mt-50 {
+  margin-top: 50px !important;
+
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.fw-bold {
+  font-weight: bold !important;
+}
+
+.txt-al-c {
+  text-align: center !important;
+}
+
+.txt-al-r {
+  text-align: right !important;
+}
+
+.txt-al-l {
+  text-align: left !important;
+}
+
+.f-s-14 {
+  font-size: 14px !important;
+}
+
+.f-s-16 {
+  font-size: 16px !important;
+}
+
+.f-s-20 {
+  font-size: 20px !important;
+
+}
+
+.mg-a {
+  margin: auto !important;
+}
+
+.mg-s-a {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.mg-0 {
+  margin: 0px !important;
+}
+
+.mg-t-10 {
+  margin-top: 10px !important;
+}
+
+.mg-b-10 {
+  margin-bottom: 10px !important;
+}
+
+.mg-b-20 {
+  margin-bottom: 20px !important;
+}
+
+.mg-b-50 {
+  margin-bottom: 50px !important;
+}
+
+.mg-b-70 {
+  margin-bottom: 70px !important;
+}
+
+.mg-b-100 {
+  margin-bottom: 100px !important;
+}
+
+.mg-r-10 {
+  margin-right: 10px !important;
+}
+
+.mg-l-10 {
+  margin-left: 10px !important;
+}
+
+.mg-r-5 {
+  margin-right: 10px !important;
+}
+
+.mg-t-20 {
+  margin-top: 20px !important;
+}
+
+.mg-t-30 {
+  margin-top: 30px !important;
+}
+
+.mg-t-40 {
+  margin-top: 40px !important;
+}
+
+.mg-t-50 {
+  margin-top: 50px !important;
+}
+
+.mg-t-70 {
+  margin-top: 70px !important;
+}
+
+.mg-5 {
+  margin: 5px !important;
+}
+
+.mg-10 {
+  margin: 10px !important;
+}
+
+.mg-r-a {
+  margin-right: auto !important;
+}
+
+.mg-30 {
+  margin: 30px !important;
+}
+
+.p-t-20 {
+  padding-top: 20px;
+}
+
+.p-t-70 {
+  padding-top: 70px;
+}
+
+.p-0 {
+  padding: 0px !important;
+}
+
+.p-10 {
+  padding: 10px !important;
+}
+
+.p-20 {
+  padding: 20px !important;
+}
+
+.p-t-10 {
+  padding-top: 10px !important;
+}
+
+.p-b-10 {
+  padding-bottom: 10px !important;
+}
+
+.p-l-10 {
+  padding-left: 10px !important;
+}
+
+.p-r-10 {
+  padding-right: 10px !important;
+}
+
+.p-t-5 {
+  padding-top: 5px !important;
+}
+
+.p-b-5 {
+  padding-bottom: 5px !important;
+}
+
+.p-l-5 {
+  padding-left: 5px !important;
+}
+
+.p-r-5 {
+  padding-right: 5px !important;
+}
+
+.p-10 {
+  padding: 10px !important;
+}
+
+.no-border {
+  border: none !important
+}
+
+.cursor-pointer {
+  cursor: pointer !important
+}
+
+
+.min-height-500 {
+  min-height: 500px !important;
+
+}
+
+.min-height-700 {
+  min-height: 700px !important;
+
+}
+
+.min-height-100vh {
+  min-height: 100vh !important;
+
+}
+
+.font-size-14 {
+  font-size: 14px !important
+}
+
+.font-size-16 {
+  font-size: 16px !important
+}
+
+.font-size-18 {
+  font-size: 18px !important
+}
+
+.font-size-20 {
+  font-size: 20px !important
+}
+
+.border-radius-5 {
+  border-radius: 5px !important;
+}
+
+.form-border-color {
+  border-color: #ced4da;
+}
+
+.no-border:active,
+.no-border:focus {
+  border: none !important;
+  outline: none !important
+}
+
+.border-rad-10 {
+  border-radius: 10px !important;
+}
+
+
+
+
+
+
+
+
+
+
+.pos-relative {
+  position: relative !important
+}
+
+.org-number-div {
+  margin: auto auto 20px !important;
+  /* width:300px; */
+  height: 150px;
+  background-color: white;
+  border: none;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 8px;
+  padding: 25px 10px;
+
+}
+
+.result-heading {
+  font-size: 19px
+}
+
+.single-number-div {
+  margin: auto auto 20px !important;
+  /* width:300px; */
+  height: 150px;
+  background-color: white;
+  border: none;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 8px;
+  color: black;
+  padding: 25px 10px;
+
+
+}
+
+.binary-number-div {
+  margin: auto auto 20px !important;
+  /* width:300px; */
+  height: 150px;
+  background-color: white;
+  border: none;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 8px;
+  padding: 25px 10px;
+  position: relative;
+}
+
+.results-row {
+  margin-top: 50px !important;
+}
+
+.binary-par {
+  height: 80px;
+  overflow-y: auto;
+}
+
+.copy-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 18px;
+  position: absolute;
+  top: 4% !important;
+  right: 2% !important;
+  color: rgba(0, 0, 0, 0.7)
+}
+
+.copy-button:disabled {
+  color: rgba(0, 0, 0, 0.3)
+}
+
+.toastMes {}
+
+
+.info-heading {
+  font-size: 24px;
+}
+
+.info-par {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.info-row {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px 0px;
+}
+
+@media screen and (max-width: 450px) {
+  .org-number-div {
+    width: 150px !important;
+    margin: auto auto 20px !important;
+
+  }
+
+  .single-number-div {
+    width: 150px !important;
+    margin: auto auto 20px !important;
+
+  }
+
+  .binary-number-div {
+    width: 300px !important;
+    margin: auto auto 20px !important;
+
+  }
+
+  .binary-number-div h3 {
+    font-size: 15px;
+  }
+
+  .org-number-div h3 {
+    font-size: 15px;
+  }
+
+  .single-number-div h3 {
+    font-size: 15px;
+
+  }
+}
+
+.color-white {
+  color: white !important;
+}
+
+@media only screen and (max-width: 540px) {
+  .desk-nav {
+    display: none !important;
+  }
+
+  .mobile-nav {
+    display: block !important
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  .desk-nav {
+    display: block !important;
+  }
+
+  .mobile-nav {
+    display: none !important
+  }
+}
+
+.numericals {
+  /* font-family: "raleway"; */
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: underline;
+}
+
+.binary-card {
+  margin: auto auto 20px auto !important;
+  height: 200px;
+  background-color: white;
+  border: none;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 8px;
+  color: black;
+  padding: 25px 10px;
+}
+
+
+
+
+.binary-input {}
+
+
+.date-input {
+  min-height: 30px;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem
+}
+
+.submit-butt {
+  background-color: #38b000 !important;
+  color: white !important;
+  margin-right: auto !important;
+  font-family: "Dirooz-FD";
+}
+
+.binary-butt {
+  color: white;
+  height: 50px;
+  width: 100px;
+  border: none;
+  /* border-radius: 0px 60px 60px 0px; */
+  background-color: black;
+
+}
+
+.back-animation {
+  background-color: linear-gradient(45deg, #6969ff, #c669ff);
+  animation: hue 2s linear infinite alternate;
+}
+
+@keyframes hue-rotate {
+  to {
+    filter: hue-rotate(90deg)
+  }
+}
+
+thead {
+  background-color: #202020;
+  color: white;
+  border-radius: 10px !important;
+  text-align: center;
+
+}
+
+table {
+  border-radius: 5px !important;
+}
+
+tbody {
+  background-color: white;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.botton-image {
+  padding: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.botton-image:active {
+  box-shadow: none !important;
+}
+
+.calendarContainer {
+  border-radius: 3px;
+  box-shadow: 0 3px 10px #dbdbdb;
+  border: 1px solid #cccccc;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.calendarContainer * {
+  box-sizing: border-box;
+}
+
+.calendarContainer .dayPickerContainer:after,
+.calendarContainer .monthsList:after,
+.calendarContainer .daysOfWeek:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* Heading */
+.calendarContainer .heading {
+  height: 42px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.calendarContainer .heading>button {
+  border-radius: 3px;
+  background: none;
+  margin: 5px 0;
+  border: 1px solid #F7F7F7;
+  text-align: center;
+  line-height: 30px;
+  width: 36px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.calendarContainer .heading>button:hover {
+  background-color: #f2f2f2;
+}
+
+.calendarContainer .heading>span {
+  line-height: 35px;
+}
+
+.calendarContainer .heading svg {
+  width: 10px;
+}
+
+.calendarContainer .heading .prev {
+  float: right;
+}
+
+.calendarContainer .heading .next {
+  float: left;
+}
+
+.calendarContainer .heading .title {
+  line-height: 32px;
+  width: 120px;
+  height: 32px;
+  font-size: 1em;
+  margin: 5px 0;
+  border: 1px solid #F7F7F7;
+  text-align: center;
+  display: inline-block;
+  font-weight: normal;
+}
+
+/* Day wrapper styles */
+.calendarContainer .dayWrapper {
+  padding: 5;
+  float: right;
+  width: 14.28571429%;
+}
+
+/* Day wrapper button styles */
+.calendarContainer .dayWrapper button {
+  border: none;
+  background: none;
+  outline: none;
+  width: 100%;
+  height: 36px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.calendarContainer .dayWrapper button:hover {
+  background-color: #eeeeff;
+}
+
+.calendarContainer .dayWrapper button[disabled] {
+  color: #aaa;
+  cursor: not-allowed;
+  background-color: #ebebeb;
+}
+
+.calendarContainer .dayWrapper button.selected {
+  background-color: #337ab7;
+  color: #ffffff;
+}
+
+.calendarContainer .dayWrapper:not(.currentMonth) button {
+  opacity: .5;
+}
+
+/* Days of week row */
+.calendarContainer .daysOfWeek {
+  border-bottom: 1px solid #EEE;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  width: 100%;
+}
+
+.calendarContainer .daysOfWeek>div {
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+/* Month selector portion */
+.calendarContainer .monthsList {
+  clear: both;
+  width: 100%;
+}
+
+.calendarContainer .monthsList button {
+  width: 33.33333332%;
+  height: 25%;
+  float: right;
+  border: 1px solid #F9F9F9;
+  outline: none;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.calendarContainer .monthsList button:hover {
+  background: #eeeeee;
+  cursor: pointer;
+}
+
+/* Selected state of buttons */
+.calendarContainer .selected button,
+.calendarContainer .selected button:hover,
+.calendarContainer .selected button:active,
+.calendarContainer .selected button:focus {
+  background-color: #337ab7;
+  color: #ffffff;
+}
